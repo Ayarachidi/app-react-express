@@ -9,6 +9,8 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
+RUN npm install express mysql2 cors body-parser multer axios
+
 
 #RUN npm install mysql@latest
 # Copy the rest of your application code
